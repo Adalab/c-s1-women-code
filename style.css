@@ -42,6 +42,19 @@ body {
   text-align: left;
 }
 
+.padding{
+  padding: 24px;
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
 /* -- Estilos Ana Martínez Section Fortress -- */
 
 
@@ -66,4 +79,49 @@ body {
   height: auto;
   margin-top: 24px;
   margin-bottom: 24px;
+}
+
+/*-- Estilos Ana Gonzalez Section Nav, About Us y Roles --*/
+
+nav{
+  padding: 24px;
+}
+.logo{
+  width: 100px;
+  height: 100px;
+
+}
+.menu li{
+  padding: 20px;
+}
+.img-section{
+  width: 100%;
+  height: auto;
+}
+.three {
+  width: 33.33333333%;
+}
+.three img{
+  width: 60px;
+  height: 60px;
+}
+.redondo{
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(http://hannajaff.com/wp-content/uploads/2013/03/foto-para-CV.jpg); /* temporal hasta tener las fotos de las demás */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+.maria{}
+.anam{}
+.anag{
+  background-image: url(../images/anagon.png);
+}
+.icon-rol{
+  width: 300px;
+  height: 300px;
 }
