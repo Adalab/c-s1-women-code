@@ -8,56 +8,69 @@
 body {
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
   font-size: 16px;
+  font-weight: 300;
 }
 
 .title {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
   background-color: #7cd3b6;
-  padding: 24px 0px;
+  padding: 30px 0px;
+  margin: 0;
 }
 
 .title-big {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .title-medium {
-  font-size: 18px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
   text-align: center;
 }
 
 .title-small {
+  text-transform: uppercase;
+  font-size: 18px;
   font-weight: 400;
+  text-align: center;
+}
+
+.p-light{
+  font-weight: 200;
 }
 
 .margin {
   margin: 24px;
 }
+.padding{
+  padding: 24px;
+}
+
 
 .align-left {
   text-align: left;
 }
 
-.padding{
-  padding: 24px;
-}
 ul{
   list-style: none;
   padding-left: 0;
 }
+
 .flex{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
+
+
+
 /* -- Estilos Ana Martínez Section Fortress -- */
-
-
 .image-contact {
   width: 250px;
   height: 250px;
@@ -73,6 +86,7 @@ ul{
   background-repeat: no-repeat;
 }
 
+
 /*-- Estilos María Vedia Section Women--*/
 .image-team {
   width: 100%;
@@ -81,19 +95,22 @@ ul{
   margin-bottom: 24px;
 }
 
-/*-- Estilos Ana Gonzalez Section Nav, About Us y Roles --*/
 
+
+/*-- Estilos Ana Gonzalez Section Nav, About Us y Roles --*/
+    /* Nav */
 nav{
   padding: 24px;
 }
 .logo{
   width: 100px;
   height: 100px;
-
 }
 .menu li{
   padding: 20px;
 }
+
+  /* About Us and Roles */
 .img-section{
   width: 100%;
   height: auto;
@@ -105,7 +122,10 @@ nav{
   width: 60px;
   height: 60px;
 }
-.redondo{
+.social{
+  padding-left: 40px;
+}
+.circle{
   margin-left: auto;
   margin-right: auto;
   background-image: url(http://hannajaff.com/wp-content/uploads/2013/03/foto-para-CV.jpg); /* temporal hasta tener las fotos de las demás */
@@ -124,4 +144,17 @@ nav{
 .icon-rol{
   width: 300px;
   height: 300px;
+}
+  /* Mediaqueris Responsive About us, Roles */
+
+  @media all and (min-width: 924px) {
+    .profiles {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .us {
+      width: 33.33333333%;
+    }
 }
