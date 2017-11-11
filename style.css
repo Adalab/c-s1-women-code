@@ -101,13 +101,20 @@ ul{
     /* Nav */
 nav{
   padding: 24px;
+  background-color: rgba(124, 211, 182, 0.8);
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 .logo{
   width: 100px;
   height: 100px;
 }
 .menu li{
+  text-decoration: none;
   padding: 20px;
+  font-size: 24px;
+  font-weight: 600;
 }
 
   /* About Us and Roles */
@@ -147,7 +154,7 @@ nav{
 }
   /* Mediaqueris Responsive About us, Roles */
 
-  @media all and (min-width: 924px) {
+@media all and (min-width: 924px) {
     .profiles {
       display: flex;
       flex-wrap: wrap;
