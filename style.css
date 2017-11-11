@@ -23,7 +23,7 @@ body {
 }
 
 .title-big {
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .title-medium {
@@ -66,14 +66,19 @@ ul{
   padding:0;
 }
 
+a {
+  text-decoration: none;
+}
 
-/* -- Estilos Ana M  -- */
+.font-small {
+  font-size: 14px;
+}
 
 /* Nav */
 
 .header {
   padding: 10px;
-  background-color: rgba(124, 211, 182, 0.8);
+  background-color: rgba(124, 211, 182, 1);
   width: 100%;
   top: 0;
   display: flex;
@@ -83,7 +88,7 @@ ul{
 }
 
 main {
-  margin-top: 116px;  
+  margin-top: 116px;
 }
 
 .ul-header {
@@ -105,12 +110,50 @@ main {
   height: 80px;
 }
 
-/* -- Fortress -- */
+/* -- Estilos Ana M  -- */
+
+
+/* -- Contact  -- */
+
+.flex-container-contact1 {
+  display: flex;
+}
+
+.button-email {
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  border-radius: 12px;
+  background-color: rgba(124, 211, 182, 1);
+  padding: 3px 10px 3px 10px;
+}
+
+.button-email:hover {
+    border-radius: 12px;
+    color: grey;
+
+}
 
 .image-contact {
-  width: 250px;
-  height: 250px;
+  height: 100px;
+  margin: 0px 24px 24px 24px;
+
 }
+
+.flex-container-contact2 {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.flex-container-contact2 p {
+  margin-left: 0;
+  margin-right:14px;
+}
+
+
+/* -- Strengths -- */
+
 
 .strength-item {
   padding-left: 32px;
