@@ -112,6 +112,30 @@ main {
 
 /* -- Estilos Ana M  -- */
 
+/* -- Strengths  -- */
+
+.icon-thumb {
+  height: 70px;
+  margin-right: 10px;
+}
+
+.container-strength {
+  display: flex;
+  padding-left: 14%;
+
+}
+
+/* -- Prueba
+.strength-item {
+  padding-left: 32px;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  background-image: linear-gradient(to right, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 100%);
+  background-position: left bottom;
+  background-size: 10px 20px;
+  background-repeat: no-repeat;
+}
+-- */
 
 /* -- Contact  -- */
 
@@ -149,20 +173,6 @@ main {
 .flex-container-contact2 p {
   margin-left: 0;
   margin-right:14px;
-}
-
-
-/* -- Strengths -- */
-
-
-.strength-item {
-  padding-left: 32px;
-  padding-bottom: 32px;
-  padding-top: 32px;
-  background-image: linear-gradient(to right, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 100%);
-  background-position: left bottom;
-  background-size: 10px 20px;
-  background-repeat: no-repeat;
 }
 
 
