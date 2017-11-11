@@ -47,7 +47,7 @@ body {
 .margin {
   margin: 24px;
 }
-.padding{
+.padding {
   padding: 24px;
 }
 
@@ -56,21 +56,57 @@ body {
   text-align: left;
 }
 
-ul{
+.style-none {
   list-style: none;
   padding-left: 0;
 }
 
-.flex{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+ul{
+  list-style: none;
+  padding:0;
 }
 
 
+/* -- Estilos Ana M  -- */
 
-/* -- Estilos Ana Martínez Section Fortress -- */
+/* Nav */
+
+.header {
+  padding: 10px;
+  background-color: rgba(124, 211, 182, 0.8);
+  width: 100%;
+  top: 0;
+  display: flex;
+  position: fixed;
+  height: 100px;
+
+}
+
+main {
+  margin-top: 116px;  
+}
+
+.ul-header {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+.li-header {
+  text-decoration: none;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+/* -- Fortress -- */
+
 .image-contact {
   width: 250px;
   height: 250px;
@@ -98,24 +134,14 @@ ul{
 
 
 /*-- Estilos Ana Gonzalez Section Nav, About Us y Roles --*/
-    /* Nav */
-nav{
-  padding: 24px;
-  background-color: rgba(124, 211, 182, 0.8);
-  position: fixed;
-  width: 100%;
-  top: 0;
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
-.logo{
-  width: 80px;
-  height: 80px;
-}
-.menu li{
-  text-decoration: none;
-  padding: 20px;
-  font-size: 24px;
-  font-weight: 600;
-}
+
 
   /* About Us and Roles */
 .img-section{
