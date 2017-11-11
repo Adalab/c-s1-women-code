@@ -157,12 +157,13 @@ nav{
 }
   /* Mediaqueris Responsive About us, Roles */
 
-@media all and (min-width: 824px) {
+@media all and (min-width: 830px) {
     .profiles {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
+      margin: 0 20px;
     }
     .us {
       width: 33.33333333%;
@@ -194,5 +195,8 @@ nav{
     .icon-rol{
         width: 300px;
         height: 300px;
+    }
+    .profiles{
+      margin: 0 130px;
     }
 }
