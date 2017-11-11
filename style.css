@@ -64,7 +64,7 @@ ul{
 .flex{
   display: flex;
   flex-wrap: wrap;
-  justify-content: strength-item;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -107,8 +107,8 @@ nav{
   top: 0;
 }
 .logo{
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
 .menu li{
   text-decoration: none;
@@ -129,8 +129,8 @@ nav{
   width: 33.33333333%;
 }
 .three img{
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
 }
 .social{
   padding-left: 40px;
@@ -172,6 +172,10 @@ nav{
       height: 250px;
       border-radius: 125px;
     }
+    .three img{
+      width: 50px;
+      height: 50px;
+    }
     .icon-rol{
         width: 250px;
         height: 250px;
@@ -182,6 +186,10 @@ nav{
       width: 300px;
       height: 300px;
       border-radius: 150px;
+    }
+    .three img{
+      width: 60px;
+      height: 60px;
     }
     .icon-rol{
         width: 300px;
