@@ -61,11 +61,6 @@ body {
   padding-left: 0;
 }
 
-ul{
-  list-style: none;
-  padding:0;
-}
-
 a {
   text-decoration: none;
 }
@@ -74,7 +69,7 @@ a {
   font-size: 14px;
 }
 
-/* Nav */
+/* Estilos Nav */
 
 .header {
   padding: 10px;
@@ -83,6 +78,8 @@ a {
   top: 0;
   display: flex;
   position: fixed;
+  justify-content: space-between;
+  align-items: center;
   height: 100px;
 
 }
@@ -104,11 +101,128 @@ main {
   font-size: 22px;
   font-weight: 600;
 }
+.li-header a {
+  color: #000;
+}
+.li-header a:hover {
+  color: orange;
+}
 
 .logo {
   width: 80px;
   height: 80px;
 }
+
+
+
+/*-- Estilos María Vedia Section Women--*/
+.image-team {
+  width: 100%;
+  height: auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+
+
+/*-- Estilos Ana Gonzalez Section About Us y Roles --*/
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+  /* About Us and Roles */
+.img-section {
+  width: 100%;
+  height: auto;
+}
+.ul-profiles {
+  padding:0;
+  padding: 0 20px;
+  list-style: none;
+}
+.three {
+  width: 33.33333333%;
+}
+.three img {
+  width: 40px;
+  height: 40px;
+}
+.ul-social {
+  padding:0;
+  padding-left: 40px;
+  list-style: none;
+}
+.circle {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(http://hannajaff.com/wp-content/uploads/2013/03/foto-para-CV.jpg); /* temporal hasta tener las fotos de las demás */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+.maria {}
+.anam {}
+.anag {
+  background-image: url(../images/anagon.png);
+}
+.icon-rol {
+  width: 200px;
+  height: 200px;
+}
+  /* Mediaqueris Responsive About us, Roles */
+
+@media all and (min-width: 830px) {
+    .ul-profiles {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 20px;
+    }
+    .us {
+      width: 33.33333333%;
+    }
+    .circle {
+      width: 250px;
+      height: 250px;
+      border-radius: 125px;
+    }
+    .three img {
+      width: 50px;
+      height: 50px;
+    }
+    .icon-rol{
+        width: 250px;
+        height: 250px;
+    }
+}
+@media all and (min-width: 1224px) {
+    .circle {
+      width: 300px;
+      height: 300px;
+      border-radius: 150px;
+    }
+    .three img {
+      width: 60px;
+      height: 60px;
+    }
+    .icon-rol {
+        width: 300px;
+        height: 300px;
+    }
+    .ul-profiles {
+      margin: 0 150px;
+    }
+}
+
 
 /* -- Estilos Ana M  -- */
 
@@ -173,109 +287,4 @@ main {
 .flex-container-contact2 p {
   margin-left: 0;
   margin-right:14px;
-}
-
-
-/*-- Estilos María Vedia Section Women--*/
-.image-team {
-  width: 100%;
-  height: auto;
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
-
-
-
-/*-- Estilos Ana Gonzalez Section Nav, About Us y Roles --*/
-
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-
-  /* About Us and Roles */
-.img-section{
-  width: 100%;
-  height: auto;
-}
-.profiles{
-  padding: 0 20px;
-}
-.three {
-  width: 33.33333333%;
-}
-.three img{
-  width: 40px;
-  height: 40px;
-}
-.social{
-  padding-left: 40px;
-}
-.circle{
-  margin-left: auto;
-  margin-right: auto;
-  background-image: url(http://hannajaff.com/wp-content/uploads/2013/03/foto-para-CV.jpg); /* temporal hasta tener las fotos de las demás */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
-}
-.maria{}
-.anam{}
-.anag{
-  background-image: url(../images/anagon.png);
-}
-.icon-rol{
-  width: 200px;
-  height: 200px;
-}
-  /* Mediaqueris Responsive About us, Roles */
-
-@media all and (min-width: 830px) {
-    .profiles {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-      margin: 0 20px;
-    }
-    .us {
-      width: 33.33333333%;
-    }
-    .circle{
-      width: 250px;
-      height: 250px;
-      border-radius: 125px;
-    }
-    .three img{
-      width: 50px;
-      height: 50px;
-    }
-    .icon-rol{
-        width: 250px;
-        height: 250px;
-    }
-}
-@media all and (min-width: 1224px) {
-    .circle{
-      width: 300px;
-      height: 300px;
-      border-radius: 150px;
-    }
-    .three img{
-      width: 60px;
-      height: 60px;
-    }
-    .icon-rol{
-        width: 300px;
-        height: 300px;
-    }
-    .profiles{
-      margin: 0 130px;
-    }
 }
