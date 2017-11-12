@@ -282,3 +282,82 @@ main {
   margin-left: 0;
   margin-right:14px;
 }
+
+
+/* -- Footer  Provisional -- */
+footer{
+  background-color: rgb(255,165,0);
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 18px 0;
+}
+.logo-foot{
+  width: 80px;
+  height: 80px;
+}
+.ada-logo{
+  width: auto;
+  height: 50px;
+}
+.ada-foot{
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+}
+.women-foot{
+  background-color: #fff;
+  padding: 10px 0;
+}
+.menu-foot{
+  list-style: none;
+  padding-left: 0;
+}
+.menu-foot li{
+  padding: 5px;
+}
+.menu-foot li a{
+  color: #000;
+  font-size: 16px;
+}
+.menu-foot li a:hover{
+  color: #fff;
+}
+.p-light{
+  font-size: 16px;
+}
+
+@media all and (min-width: 830px) {
+  .flex-container-foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ada-foot{
+    display: block;
+  }
+  .women-foot, .ada-foot, .container-menu-foot{
+    width: 33.333333%;
+    background-color: inherit;
+  }
+  .container-menu-foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu-foot li a{
+    font-size: 18px;
+  }
+  .logo-foot{
+    width: 100px;
+    height: 100px;
+  }
+  .ada-logo{
+    width: auto;
+    height: 60px;
+  }
+}
