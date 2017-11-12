@@ -239,17 +239,6 @@ main {
 
 }
 
-/* -- Prueba
-.strength-item {
-  padding-left: 32px;
-  padding-bottom: 32px;
-  padding-top: 32px;
-  background-image: linear-gradient(to right, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 100%);
-  background-position: left bottom;
-  background-size: 10px 20px;
-  background-repeat: no-repeat;
-}
--- */
 
 /* -- Contact  -- */
 
@@ -272,10 +261,15 @@ main {
 
 }
 
-.image-contact {
-  height: 100px;
-  margin: 0px 24px 24px 24px;
+.container-image-contact {
+  width: 20%;
+  min-width: 100px;
+  max-width: 200px;
+  margin: 0 24px 20px 20px;
+}
 
+.image-contact {
+  width:100%;
 }
 
 .flex-container-contact2 {
