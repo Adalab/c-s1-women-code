@@ -116,6 +116,21 @@ main {
 
 
 /*-- Estilos María Vedia Section Women--*/
+
+#foto-principal {
+  position: relative;
+}
+
+.logo-principal {
+  position: absolute;
+  left: 115px;
+  top: 0px;
+}
+
+.img-principal {
+  width: 100%;
+  height: auto;
+}
 .image-team {
   width: 100%;
   height: auto;
