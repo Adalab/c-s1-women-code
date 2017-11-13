@@ -12,6 +12,10 @@ body {
   font-weight: 300;
 }
 
+.img-block {
+  display: block;
+}
+
 .title {
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
@@ -81,7 +85,7 @@ a {
   justify-content: space-between;
   align-items: center;
   height: 100px;
-
+  z-index: 1;
 }
 
 main {
@@ -97,8 +101,8 @@ main {
 
 .li-header {
   text-decoration: none;
-  padding: 20px;
-  font-size: 22px;
+  padding: 10px;
+  font-size: 16px;
   font-weight: 600;
 }
 .li-header a {
@@ -120,18 +124,22 @@ main {
 
 #foto-principal {
   position: relative;
+  width: 100%;
 }
 
 .logo-principal {
   position: absolute;
-  left: 115px;
-  top: 0px;
+  left: 40%;
+  top: 25%;
+  width: 20%;
 }
 
 .img-principal {
   width: 100%;
   height: auto;
 }
+
+
 .image-team {
   width: 100%;
   height: auto;
