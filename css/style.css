@@ -259,7 +259,28 @@ main {
 
 .container-strength {
   display: flex;
-  padding-left: 14%;
+  margin-left: 12%;
+
+}
+
+/* -- Media Queries Strengths  -- */
+
+@media all and (min-width: 768px) {
+  .container-strength {
+    margin-left:0;
+    justify-content: center;
+  }
+
+@media all and (min-width: 1224px)  {
+  .container-strenght-md {
+    display: flex;
+    justify-content: center;
+
+  }
+}
+
+
+
 
 }
 
