@@ -271,7 +271,7 @@ main {
     justify-content: center;
   }
 
-@media all and (min-width: 1224px)  {
+@media all and (min-width: 1000px)  {
   .container-strenght-md {
     display: flex;
     justify-content: center;
