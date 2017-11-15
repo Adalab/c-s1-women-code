@@ -132,7 +132,9 @@ main {
 #womencode p {
   margin-left: auto;
   margin-right: auto;
-  width: 900px;
+  max-width: 900px;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 
 #foto-principal {
@@ -158,7 +160,7 @@ main {
   width: 100%;
   height: auto;
   margin-top: 24px;
-  margin-bottom: 24px;
+  margin-bottom: 15px;
 }
 
 
