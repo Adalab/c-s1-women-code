@@ -170,17 +170,16 @@ main {
   padding: 0 20px;
   list-style: none;
 }
-.three {
-  width: 33.33333333%;
-}
 .three img {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
 }
 .ul-social {
   padding:0;
   padding-left: 40px;
   list-style: none;
+  justify-content: center;
 }
 .circle {
   margin-left: auto;
@@ -201,6 +200,9 @@ main {
 .icon-rol {
   width: 200px;
   height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
   /* Mediaqueris Responsive About us, Roles */
 
@@ -209,7 +211,6 @@ main {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      align-items: center;
       margin: 0 20px;
     }
     .us {
@@ -221,8 +222,8 @@ main {
       border-radius: 125px;
     }
     .three img {
-      width: 50px;
-      height: 50px;
+      width: 35px;
+      height: 35px;
     }
     .icon-rol{
         width: 250px;
@@ -236,8 +237,8 @@ main {
       border-radius: 150px;
     }
     .three img {
-      width: 60px;
-      height: 60px;
+      width: 45px;
+      height: 45px;
     }
     .icon-rol {
         width: 300px;
