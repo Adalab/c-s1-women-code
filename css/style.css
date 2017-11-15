@@ -69,9 +69,7 @@ a {
   text-decoration: none;
 }
 
-.font-small {
-  font-size: 14px;
-}
+
 
 /* Estilos Nav */
 
@@ -351,8 +349,24 @@ main {
 
 @media all and (min-width: 768px) {
   .image-contact {
-    margin-left: 24px;
+
+    margin-left: 50px;
   }
+  .button-contact {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .button-email {
+    padding: 10px 30px;
+  }
+
+  .text-contact {
+    width: 50%;
+    align-self: center;
+    }
+
+
 
 }
 
