@@ -272,6 +272,7 @@ main {
     margin-left:0;
     justify-content: center;
   }
+}
 
 @media all and (min-width: 1000px)  {
   .container-strenght-md {
@@ -281,16 +282,20 @@ main {
   }
 }
 
-
-
-
-}
-
-
 /* -- Contact  -- */
+
+.max-width-p {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+}
 
 .flex-container-contact1 {
   display: flex;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button-email {
@@ -330,6 +335,14 @@ main {
   margin-right:14px;
 }
 
+/* -- Media Queries Contact -- */
+
+@media all and (min-width: 768px) {
+  .image-contact {
+    margin-left: 24px;
+  }
+
+}
 
 /* -- Footer  Provisional -- */
 footer{
