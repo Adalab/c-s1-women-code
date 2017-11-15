@@ -122,6 +122,11 @@ main {
 
 /*-- Estilos María Vedia Section Women--*/
 
+#womencode {
+  border-top: 100px solid transparent;
+  margin-top: -100px;
+}
+
 #foto-principal {
   position: relative;
   width: 100%;
@@ -283,6 +288,11 @@ main {
 }
 
 /* -- Contact  -- */
+
+#contact {
+  border-top: 100px solid transparent;
+  margin-top: -100px;
+}
 
 .max-width-p {
   max-width: 900px;
