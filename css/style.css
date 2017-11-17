@@ -85,6 +85,7 @@ a {
   align-items: center;
   height: 100px;
   z-index: 1;
+  padding: 0 16px;
 }
 
 main {
@@ -96,6 +97,10 @@ main {
   margin: 0;
   list-style: none;
   padding-left: 0;
+}
+
+.li-header:last-of-type {
+  padding-right: 0;
 }
 
 .li-header {
@@ -120,7 +125,6 @@ main {
 .logo {
   width: 80px;
   height: 80px;
-  margin: 20px;
 }
 
 
