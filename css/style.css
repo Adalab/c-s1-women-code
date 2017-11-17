@@ -10,6 +10,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   font-weight: 300;
+  line-height: 1.4;
 }
 
 .img-block {
@@ -163,7 +164,6 @@ main {
   height: auto;
 }
 
-
 .image-team {
   width: 100%;
   height: auto;
@@ -171,6 +171,13 @@ main {
   margin-bottom: 15px;
 }
 
+.arrow {
+  position: absolute;
+  top: 70%;
+  width: 10%;
+  right: 45%;
+
+}
 
 
 /*-- Estilos Ana Gonzalez Section About Us y Roles --*/
