@@ -228,7 +228,9 @@ main {
   height: 200px;
   border-radius: 100px;
 }
-.maria {}
+.maria {
+  background-image: url(../images/foto-maria-vedia.jpeg)
+}
 .anam {}
 .anag {
   background-image: url(../images/anagon.png);
