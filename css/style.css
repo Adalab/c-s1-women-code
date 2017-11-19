@@ -329,18 +329,27 @@ main {
 
 /* -- Contact  -- */
 
-.max-width-p {
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 24px;
+.text-contact {
+  margin-right: 32px;
+  margin-left: 32px;
+  max-width: 850px;
 }
 
-.flex-container-contact1 {
+.button-email:hover {
+    border-radius: 12px;
+    background-color: rgb(255,165,0);
+}
+
+.flex-container-contact {
   display: flex;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-contact {
+ width: 150px;
+
 }
 
 .button-email {
@@ -350,58 +359,19 @@ main {
   border-radius: 12px;
   background-color: rgba(124, 211, 182, 1);
   padding: 3px 10px 3px 10px;
+  height: 10%;
+  margin-left: 24px;
 }
 
-.button-email:hover {
-    border-radius: 12px;
-    background-color: rgb(255,165,0);
-
-}
-
-.container-image-contact {
-  width: 20%;
-  min-width: 100px;
-  max-width: 200px;
-  margin: 0 24px 20px 20px;
-}
-
-.image-contact {
-  width:100%;
-}
-
-.flex-container-contact2 {
-  display: flex;
-  flex-direction: column;
-
-}
-
-.flex-container-contact2 p {
-  margin-left: 0;
-  margin-right:14px;
-}
 
 /* -- Media Queries Contact -- */
 
-@media all and (min-width: 768px) {
-  .image-contact {
 
-    margin-left: 50px;
-  }
-  .button-contact {
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .button-email {
-    padding: 10px 30px;
-  }
-
+@media all and (min-width: 850px) {
   .text-contact {
-    width: 50%;
-    align-self: center;
-    }
-
-
+    margin-right: auto;
+    margin-left: auto;  
+  }
 
 }
 
