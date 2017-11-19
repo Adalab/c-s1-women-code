@@ -326,7 +326,7 @@ main {
 }
 
 
-/* -- Estilos Ana M  -- */
+/* -- Estilos Ana Martinez  -- */
 
 /* -- Strengths  -- */
 
@@ -398,7 +398,6 @@ main {
 
 /* -- Media Queries Contact -- */
 
-
 @media all and (min-width: 850px) {
   .text-contact {
     margin-right: auto;
@@ -407,49 +406,59 @@ main {
 
 }
 
-/* -- Footer  Provisional -- */
-footer{
+/* -- Footer -- */
+
+footer {
   background-color: rgb(255,165,0);
   width: 100%;
   height: auto;
   text-align: center;
   padding: 18px 0;
 }
-.logo-foot{
+
+.logo-foot {
   width: 70px;
   height: 70px;
 }
-.ada-logo{
+
+.ada-logo {
   width: auto;
   height: 40px;
 }
-.ada-foot{
+
+.ada-foot {
   padding: 0 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content:space-around;
   align-items: center;
 }
-.women-foot{
+
+.women-foot {
   background-color: #fff;
   padding: 10px 0;
 }
-.menu-foot{
+
+.menu-foot {
   list-style: none;
   padding-left: 0;
   display: none;
 }
-.menu-foot li{
+
+.menu-foot li {
   padding: 5px;
 }
-.menu-foot li a{
+
+.menu-foot li a {
   color: #000;
   font-size: 16px;
 }
-.menu-foot li a:hover{
+
+.menu-foot li a:hover {
   color: #fff;
 }
-.p-light{
+
+.p-light {
   font-size: 16px;
 }
 
@@ -457,6 +466,7 @@ footer{
   .menu-foot {
     display: block;
   }
+
   .flex-container-foot{
     display: flex;
     flex-wrap: wrap;
