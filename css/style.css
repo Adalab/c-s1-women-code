@@ -382,6 +382,7 @@ main {
   margin-right: 32px;
   margin-left: 32px;
   max-width: 850px;
+  margin-top: 32px;
 }
 
 .button-email:hover {
@@ -398,7 +399,6 @@ main {
 
 .image-contact {
  width: 150px;
-
 }
 
 .button-email {
@@ -415,12 +415,21 @@ main {
 
 /* -- Media Queries Contact -- */
 
+@media all and (min-width: 550px) {
+  .flex-container-contact {
+    margin-bottom: 60px;
+  }
+
+  .text-contact {
+    margin-top: 60px;
+  }
+}
+
 @media all and (min-width: 850px) {
   .text-contact {
     margin-right: auto;
     margin-left: auto;
   }
-
 }
 
 /* -- Footer -- */
